@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson4</title>
+</head>
+<body>
+    <script>
+        const variable_1 = "constante"
+        let variable_2 = "pas constante"
+        let character = "string"
+        let number = "1234"
+        let var3 =null;
+        let var4;
+        for (let i=0; i<10; i++){
+            console.log(i)
+        }
+        for(let i = 0; i < variable_2.length; i++) {
+            console.log(variable_2[i])
+        }
+        const tableau = [
+        "hello",
+        1234,
+        null,
+        "world",
+        undefined
+        ]
+        for (let i = 0; i < tableau.length; i++){
+            console.log(tableau[i])
+            console.log(typeof tableau[i])
+        }
+        if(typeof tableau === "string")
+        console.log("c'est un string");
+        else;
+        if(1 ===1){
+            console.log("ok")
+        }else{
+            console.log("not ok")
+        }
+        if(typeof 1 == "1"){
+            console.log("vas jouer")
+        }else{
+            console.log("pas jouer")
+        }
+        const obj1 = ["Ho", "He"]
+        const obj2 = {
+            ins1: "string",
+            ins2: 123,
+            ins3:["Hello", "world"], 
+        ins4:{
+            name: "xyz",
+            url:"#"
+        },
+        ins5: function () { console.log("HI! am a function")},
+        ins6: [
+        {
+            ins1:123,
+            ins2:"",
+            ins3: function(){},
+            ins4:["",1,null,variable_1]
+        }]
+    }
+    </script>
+</body>
+</html>
