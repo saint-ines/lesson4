@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Training day</h1>
+        <span class="classname">
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </span>
+    </header>
+    <script>
+       function changeHeaderColor(){
+           const header = document.getElementById("header");
+           header.style.backgroundColor = "green";
+       }
+       const header = document.getElementById("header");
+       header.addEventListener("click", changeHeaderColor);
+    </script>
+</body>
+</html>
